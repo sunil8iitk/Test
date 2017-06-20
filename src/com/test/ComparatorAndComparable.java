@@ -75,7 +75,6 @@ class Car implements Comparable<Car>
 	@Override
 	public String toString() 
 	{
-		System.out.println();
 		return this.getId() + ":" + this.getName() + ":" + this.getCompany() + " ";
 	}
 	
